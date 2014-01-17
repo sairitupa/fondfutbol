@@ -1,0 +1,107 @@
+/*fondos*/ /*internacional-*/
+
+article.fondos{
+	display: inline-block;
+}
+
+
+#wallpapers{
+	font-size:15px;
+	text-align:center;
+    color:white;
+}
+
+#wallpapers article{
+	background:#fff;
+	border:2px solid blue;
+	color: black;
+	font-size:100px;
+	margin:10px;
+	padding:10px;
+	width:130px;
+    border-radius: 12px; 
+   
+}
+        
+article p{
+    font-size:12px;
+}
+
+
+/*contactos*/
+
+h2{
+    color:yellow;
+    text-shadow:1px 2px green;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+.formulario {
+    border: 1px solid blue;
+    display:inline-block;
+    width:60%;
+    color: white;
+    font-family:Arial;
+    background:#7B46C1;
+    border-radius:20px;
+}
+#lateral{
+        width: 30%;
+        display: none;
+    margin:0 20px;
+    color:white;
+    border-radius:15px;
+    
+}
+#lateral, .formulario{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea{
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:14px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+#contenido{
+    display: inline-block;
+}
+@media screen and (max-width:700px){
+    section.formulario{
+        width:100%;
+    }
+
+    #lateral{
+        display: block;
+        width:100%;
+    }
+}
+
+
